@@ -1,4 +1,68 @@
-h1 {
-  color: red;
+.bg {
+  color: #66fcf1;
+  background-color: #0b0c10;
+}
+
+header nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header nav img {
+  width: 3rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #66fcf1;
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+header #hero {
+  height: 60vh;
+  background-image: url(/images/headerbg.jpg?cb13f0cbcd0b48c1d867cc7d2dceb050);
+  background-size: 130%;
+  background-position: 50% 75%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+header #hero .shadow {
+  background: rgba(20, 30, 32, 0.92);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+header #hero .txt {
+  position: absolute;
+  padding-left: 3rem;
+}
+
+.wrapperSect {
+  margin: 4rem 0;
+  height: 60vh;
+}
+
+footer i {
+  color: #66fcf1;
+  font-size: 3rem;
+}
+
+.nomp {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.pads {
+  padding: 1rem;
+}
+
+p {
+  color: lightgrey;
 }
 

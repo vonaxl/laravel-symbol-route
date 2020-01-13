@@ -1,2 +1,15 @@
 //
+@import "base";
 @import "header";
+@import "main";
+@import "footer";
+.nomp {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.pads {
+    padding: 1rem;
+}
+p {
+    color: lightgrey;
+}

@@ -1,3 +1,39 @@
-h1 {
-    color: red;
+header {
+    nav {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        img {
+            width: 3rem;
+        }
+        ul {
+            li {
+                a {
+                    &:hover {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    text-decoration: none;
+                    color: #66fcf1;
+                }
+            }
+        }
+    }
+    #hero {
+        .shadow {
+            background: rgba(20, 30, 32, 0.92);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .txt {
+            position: absolute;
+            padding-left: 3rem;
+        }
+        height: 60vh;
+        background-image: url("public/img/headerbg.jpg");
+        background-size: 130%;
+        background-position: 50% 75%;
+        background-attachment: fixed;
+        position: relative;
+    }
 }
